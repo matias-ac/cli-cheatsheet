@@ -1,0 +1,180 @@
+{
+  "comandos_terminal": [
+    {
+      "categoria": "Navegación",
+      "comandos": [
+        {
+          "comando": "ls",
+          "descripcion": "Lista archivos y carpetas"
+        },
+        {
+          "comando": "cd",
+          "descripcion": "Cambia de directorio"
+        },
+        {
+          "comando": "pwd",
+          "descripcion": "Muestra la ruta del directorio actual"
+        },
+        {
+          "comando": "tree",
+          "descripcion": "Muestra estructura de carpetas"
+        }
+      ]
+    },
+    {
+      "categoria": "Gestión de archivos y carpetas",
+      "comandos": [
+        {
+          "comando": "touch",
+          "descripcion": "Crea un archivo vacío"
+        },
+        {
+          "comando": "mkdir",
+          "descripcion": "Crea un nuevo directorio"
+        },
+        {
+          "comando": "cp",
+          "descripcion": "Copia archivos o carpetas"
+        },
+        {
+          "comando": "mv",
+          "descripcion": "Mueve o renombra archivos"
+        },
+        {
+          "comando": "rm",
+          "descripcion": "Elimina archivos"
+        },
+        {
+          "comando": "rmdir",
+          "descripcion": "Elimina carpetas"
+        }
+      ]
+    },
+    {
+      "categoria": "Lectura de archivos",
+      "comandos": [
+        {
+          "comando": "cat",
+          "descripcion": "Muestra contenido de un archivo"
+        },
+        {
+          "comando": "less",
+          "descripcion": "Visualiza un archivo página por página"
+        },
+        {
+          "comando": "head",
+          "descripcion": "Muestra las primeras líneas de un archivo"
+        },
+        {
+          "comando": "tail",
+          "descripcion": "Muestra las últimas líneas de un archivo"
+        }
+      ]
+    },
+    {
+      "categoria": "Procesos del sistema",
+      "comandos": [
+        {
+          "comando": "top",
+          "descripcion": "Muestra procesos en ejecución"
+        },
+        {
+          "comando": "ps",
+          "descripcion": "Muestra historial de comandos"
+        },
+        {
+          "comando": "kill",
+          "descripcion": "Termina un proceso"
+        },
+        {
+          "comando": "df -h",
+          "descripcion": "Muestra espacio disponible en discos"
+        },
+        {
+          "comando": "du -sh",
+          "descripcion": "Muestra tamaño de archivos y carpetas"
+        },
+        {
+          "comando": "uptime",
+          "descripcion": "Muestra tiempo encendido y carga del sistema"
+        },
+        {
+          "comando": "clear",
+          "descripcion": "Limpia la terminal"
+        }
+      ]
+    },
+    {
+      "categoria": "Utilidades de sistema",
+      "comandos": [
+        {
+          "comando": "echo",
+          "descripcion": "Imprime texto en la terminal"
+        },
+        {
+          "comando": "history",
+          "descripcion": "Muestra historial de comandos"
+        },
+        {
+          "comando": "man",
+          "descripcion": "Muestra el manual de un comando"
+        },
+        {
+          "comando": "nano",
+          "descripcion": "Editor de texto básico"
+        },
+        {
+          "comando": "vim",
+          "descripcion": "Editor de texto avanzado"
+        }
+      ]
+    },
+    {
+      "categoria": "Permisos de archivos",
+      "comandos": [
+        {
+          "comando": "chmod",
+          "descripcion": "Cambia permisos de un archivo"
+        },
+        {
+          "comando": "chown",
+          "descripcion": "Cambia propietario de un archivo"
+        },
+        {
+          "comando": "sudo",
+          "descripcion": "Ejecuta comandos como administrador"
+        }
+      ]
+    },
+    {
+      "categoria": "Búsqueda de ficheros",
+      "comandos": [
+        {
+          "comando": "find",
+          "descripcion": "Busca archivos en directorios"
+        },
+        {
+          "comando": "grep",
+          "descripcion": "Busca texto dentro de archivos"
+        }
+      ]
+    },
+    {
+      "categoria": "Utilidades de red",
+      "comandos": [
+        {
+          "comando": "ping",
+          "descripcion": "Comprueba conexión con una dirección"
+        },
+        {
+          "comando": "curl",
+          "descripcion": "Realiza peticiones HTTP"
+        },
+        {
+          "comando": "wget",
+          "descripcion": "Descarga archivos desde una URL"
+        }
+      ]
+    }
+  ]
+}

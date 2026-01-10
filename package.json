@@ -1,0 +1,25 @@
+{
+  "name": "cli-cheatsheet-manager",
+  "version": "1.0.0",
+  "description": "Linux commands cheatsheet",
+  "keywords": [
+    "linux",
+    "cheatsheet",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/matias-ac/cli-cheatsheet#readme",
+  "bugs": {
+    "url": "https://github.com/matias-ac/cli-cheatsheet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matias-ac/cli-cheatsheet.git"
+  },
+  "license": "ISC",
+  "author": "Matías Ariel Castro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

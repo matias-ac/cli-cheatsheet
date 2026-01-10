@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises'
+import chalk from 'chalk'
 
 let data;
 
@@ -9,13 +10,13 @@ try {
   console.error(err)
 }
 
-// console.log({ data })
-
 data.comandos_terminal.map(categoria => {
   const comandos = categoria.comandos
-  console.log(`# ${ categoria.categoria }`)
+  console.log(chalk.blue(`# ${ categoria.categoria }`))
   comandos.map(comando => {
-    console.log(`${ comando.comando } ==> ${ comando.descripcion }`)
+    console.log(
+      `${ chalk.green(comando.comando) } ==> ${ comando.descripcion }`
+    )
   })
   console.log(' ')
 })

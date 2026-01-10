@@ -26,7 +26,7 @@ This is a prototype for a CLI tool builded with Node.js that prints on a termina
 # ...
 # ...your .zshrc content
 # ...
-alias cheatsheet='node /home/matias/repos/cli-cheatsheet-manager/index.js' 
+alias cheatsheet='node /home/matias/repos/cli-cheatsheet/index.js' 
 ```
 
 ## Usage

@@ -16,7 +16,7 @@ try {
   console.error(err)
 }
 
-console.log(chalk.blue('# ¡Bienvenido a la CheatSheet de comandos Linux para Developers!'))
+console.log(chalk.blue('# CheatSheet de comandos para usuarios de Linux:'))
 
 data.comandos_terminal.map(categoria => {
   const comandos = categoria.comandos

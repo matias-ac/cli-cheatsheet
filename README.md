@@ -34,4 +34,4 @@ alias cheatsheet='node /home/matias/repos/cli-cheatsheet-manager/index.js'
 - just open a terminal and type your new alias (e.g. `cheatsheet`)
 - you will see the cheatsheet:
 
-[cheatsheet screenshot](./cheatsheet.png)
+![cheatsheet screenshot](./cheatsheet.png)

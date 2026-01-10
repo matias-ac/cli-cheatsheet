@@ -9,10 +9,14 @@ try {
   console.error(err)
 }
 
-console.log({ data })
+// console.log({ data })
 
-data.comandos_terminal.map(categoria => console.log(categoria))
+data.comandos_terminal.map(categoria => {
+  const comandos = categoria.comandos
+  console.log(`# ${ categoria.categoria }`)
+  comandos.map(comando => {
+    console.log(`${ comando.comando } ==> ${ comando.descripcion }`)
+  })
+  console.log(' ')
+})
 
-// for (let category in data.comandos_terminal) {
-//   console.log({ category })
-// }

@@ -23,8 +23,20 @@ data.comandos_terminal.map(categoria => {
   console.log(' ')
   console.log(chalk.blue(`## ${ categoria.categoria }`))
   comandos.map(comando => {
+
+    // console.log(comando.comando.length)
+
+    if (comando.comando.length < 10) {
+      
+      for (let i = comando.comando.length; i < 10; i++) {
+        comando.comando += ' '
+      }
+
+    }
+
+    // console.log(comando.comando)
     console.log(
-      `${ chalk.green(comando.comando) } ==> ${ comando.descripcion }`
+      `${ chalk.green(comando.comando) } ==>  ${ comando.descripcion }`
     )
   })
 })
